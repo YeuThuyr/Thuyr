@@ -45,7 +45,7 @@ export default function GoogleMapComponent() {
                 <div className="location-container py-3 text-base overflow-y-auto h-[500px] pl-4"></div>
               </div>
             </div>
-            <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
+            <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ''}>
                 <GoogleMap mapContainerStyle={containerStyle} center={locations[0]} zoom={12}>
                     {locations.map((location, index) => (
                         <Marker key={index} position={{ lat: location.lat, lng: location.lng }} />
