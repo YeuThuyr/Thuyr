@@ -77,11 +77,11 @@ const NavBar = () => {
                           </div>
                         </div>
                         <div className="flex relative col-span-1">
-                          <img className="w-full h-full object-cover" src="/asset/background-1.jpg"></img>
+                          <img className="w-full h-full object-cover" src="./asset/background-1.jpg"></img>
                           <div className="flex absolute px-[15px] w-4/5">
                             <a href="/" className="my-5 p-[5px]">
                               <div className="px-3 py-2 hover:bg-green-200 duration-300">
-                                <img className="mb-1" src="/asset/blonde_roast_coffee_tcm89-15926.jpg"></img>
+                                <img className="mb-1" src="./asset/blonde_roast_coffee_tcm89-15926.jpg"></img>
                                 <p className="text-sm font-bold mb-1">Blonde Roast</p>
                                 <p className="text-sm font-medium mb-1">Nhẹ và ngọt dịu, loại cà phê rang qua hoàn hảo.</p>
                               </div>
@@ -149,11 +149,11 @@ const NavBar = () => {
                           </div>
                         </div>
                         <div className="flex relative col-span-1">
-                          <img className="w-full h-full object-cover" src="/asset/background-1.jpg"></img>
+                          <img className="w-full h-full object-cover" src="./asset/background-1.jpg"></img>
                           <div className="flex absolute px-[15px] w-5/6">
                             <a href="/" className="my-5 p-[5px]">
                               <div className="px-3 py-2 hover:bg-green-200 duration-300">
-                                <img className="mb-1" src="/asset/menu_blueberries_tcm89-16461.jpg"></img>
+                                <img className="mb-1" src="./asset/menu_blueberries_tcm89-16461.jpg"></img>
                                 <p className="text-sm font-bold mb-1">Đồ ăn Thực thụ, Cực Ngon</p>
                                 <p className="text-sm font-medium mb-1">Xem những lựa chọn món ăn mới trong cửa hàng của chúng tôi.</p>
                               </div>
@@ -210,11 +210,11 @@ const NavBar = () => {
                           </div>
                         </div>
                         <div className="flex relative col-span-1">
-                          <img className="object-cover" src="/asset/background-1.jpg"></img>
+                          <img className="object-cover" src="./asset/background-1.jpg"></img>
                           <div className="flex absolute px-[15px] w-5/6">
                             <a href="/" className="my-5 p-[5px]">
                               <div className="flex flex-col px-3 py-2 hover:bg-green-200 duration-300">
-                                <img className="mb-1" src="/asset/coffeehouse-teaser_tcm89-3864.jpg"></img>
+                                <img className="mb-1" src="./asset/coffeehouse-teaser_tcm89-3864.jpg"></img>
                                 <div className="text-sm font-bold mb-1">Cà phê của chúng tôi đưa mọi người lại gần nhau</div>
                                 <div className="text-sm font-medium mb-1">Vui chơi, mơ giấc mơ lớn và vui chơi với bạn bè.</div>
                               </div>

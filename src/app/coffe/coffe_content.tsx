@@ -6,7 +6,7 @@ const CoffeContent = () => {
         <div>
             <div className="flex flex-col">
                 <div className="">
-                    <img className="object-cover h-[560px]" src="/asset/fy19-summer-1_tcm89-50260.jpg"></img>
+                    <img className="object-cover h-[560px]" src="./asset/fy19-summer-1_tcm89-50260.jpg"></img>
                 </div>
                 <div className="bg-black border border-4 border-transparent border-b-gray-200 border-t-gray-200">
                     <div className="container mx-auto">
@@ -37,13 +37,13 @@ const CoffeContent = () => {
                                 </div>
                             </div>
                             <div className="flex-1">
-                                <img src="/asset/coffee-finder-circles_tcm89-3966_w1024_n.png"></img>
+                                <img src="./asset/coffee-finder-circles_tcm89-3966_w1024_n.png"></img>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="relative">
-                    <img className="w-full absolute z-[-5]" src="/asset/bg-how_to_brew-mobile.jpg"></img>
+                    <img className="w-full absolute z-[-5]" src="./asset/bg-how_to_brew-mobile.jpg"></img>
                     <div className="px-24">
                         <div className="w-1/2 mb-8">
                             <p className="text-[18px] font-bold mt-[34px] mb-[15px]">CÁCH PHA CÀ PHÊ</p>

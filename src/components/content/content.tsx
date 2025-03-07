@@ -5,7 +5,7 @@ const Content = () => {
     return (
         <div className="flex flex-col">
             <div className="relative">
-                <img className="h-[560px] object-cover" src="/asset/hero-banner-desktop-copy-2-1.jpg"></img>
+                <img className="h-[560px] object-cover" src="./asset/hero-banner-desktop-copy-2-1.jpg"></img>
             </div>
             <div className="flex bg-white">
                 <div className="container mx-auto">
@@ -24,12 +24,12 @@ const Content = () => {
                                 </div>
                             </div>
                             <div className="flex-1">
-                                <img src="/asset/our-espresso_tcm89-24616_w1024_n.png"></img>
+                                <img src="./asset/our-espresso_tcm89-24616_w1024_n.png"></img>
                             </div>
                         </div>
                         <div className="flex items-center gap-24 py-[70px]">
                             <div className="flex-1">
-                                <img src="/asset/opportunity_tcm89-24617_w1024_n.png"></img>
+                                <img src="./asset/opportunity_tcm89-24617_w1024_n.png"></img>
                             </div>
                             <div className="flex flex-col gap-4 flex-1 px-6">
                                 <p className="text-2xl font-bold">CƠ HỘI</p>

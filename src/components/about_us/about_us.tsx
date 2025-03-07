@@ -51,12 +51,12 @@ const AboutUs = () => {
                             <a href="" className="text-[#382F2D] hover:text-neutral-500 duration-300">Dành cho Đối tác</a>
                         </div>
                         <div className="flex col-span-1 justify-end items-start">
-                            <img src="/asset/starbuck.png" className=""></img>
+                            <img src="./asset/starbuck.png" className=""></img>
                         </div>
                     </div>
                     <div className="px-3 flex flex-col gap-4 pb-[45px]">
                         <div className="flex gap-2 items-center">
-                            <img className="w-[15px] h-[11px]" src="/asset/VietNam_tcm89-24771_w1024_n.png"></img>
+                            <img className="w-[15px] h-[11px]" src="./asset/VietNam_tcm89-24771_w1024_n.png"></img>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="size-3">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
                             </svg>
