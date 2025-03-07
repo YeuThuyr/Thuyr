@@ -4,8 +4,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: "/Thuyr",
-  assetPrefix: "/Thuyr/",
+  basePath: '/Thuyr',
+  assetPrefix: '/Thuyr/',
   output: 'export',
   distDir: 'dist',
   images: {
