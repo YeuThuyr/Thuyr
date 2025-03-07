@@ -5,7 +5,7 @@ const isPro = process.env.NODE_ENV === 'production';
 const nextConfig: NextConfig = {
   /* config options here */
   basePath: isPro ? '/Thuyr' : '',
-  output: 'export',
+  output: "export",
   distDir: 'dist',
   images: {
     unoptimized: true,
