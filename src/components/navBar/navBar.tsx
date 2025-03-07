@@ -9,7 +9,7 @@ const NavBar = () => {
             <div className="flex [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:gap-0 flex-row flex-1 gap-5">
                 <div className="py-4">
                   <a>
-                    <img className="object-cover" src="/asset/star_buck.png"></img>
+                    <img className="object-cover" src="./asset/star_buck.png"></img>
                   </a>
                 </div>
                 <div className="flex">

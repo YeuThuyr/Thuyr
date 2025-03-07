@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
-/** @type {import('next').NextConfig} */
+const isPro = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: '/Thuyr',
-  assetPrefix: '/Thuyr/',
+  basePath: isPro ? '/Thuyr' : '',
   output: 'export',
   distDir: 'dist',
   images: {
