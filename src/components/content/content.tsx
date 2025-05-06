@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Motion_1 from "./motion/motion_1";
 
 const Content = () => {
     return (
@@ -24,12 +25,12 @@ const Content = () => {
                                 </div>
                             </div>
                             <div className="flex-1">
-                                <img src="./asset/our-espresso_tcm89-24616_w1024_n.png"></img>
+                                <Motion_1>./asset/our-espresso_tcm89-24616_w1024_n.png</Motion_1>
                             </div>
                         </div>
                         <div className="flex items-center gap-24 py-[70px]">
                             <div className="flex-1">
-                                <img src="./asset/opportunity_tcm89-24617_w1024_n.png"></img>
+                                <Motion_1>./asset/opportunity_tcm89-24617_w1024_n.png</Motion_1>
                             </div>
                             <div className="flex flex-col gap-4 flex-1 px-6">
                                 <p className="text-2xl font-bold">CƠ HỘI</p>

@@ -1,5 +1,7 @@
 import React from "react";
 import StoreLocatorButton from "./store_locator_button/store_locator_button";
+import Link from "next/link";
+import Image from "next/image";
 
 const NavBar = () => {
     return (
@@ -8,13 +10,13 @@ const NavBar = () => {
         <div className="flex xl:px-24 lg:px-[30px] md:px-6">
             <div className="flex [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:gap-0 flex-row flex-1 gap-5">
                 <div className="py-4">
-                  <a>
+                  <a href="/">
                     <img className="object-cover" src="./asset/star_buck.png"></img>
                   </a>
                 </div>
                 <div className="flex">
                   <div className="flex relative group items-end">
-                    <a href="/coffe" className="p-[14px] text-sm cursor-pointer group-hover:bg-black hover:bg-black hover:border-transparent hover:border-2 hover:border-b-white">CÀ PHÊ</a>
+                    <Link href="/coffe" className="p-[14px] text-sm cursor-pointer group-hover:bg-black border border-transparent border-b-white border-4 hover:border-b-yellow-300">CÀ PHÊ</Link>
                     <div className="container mx-auto w-max absolute top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-100">
                       <div className="grid grid-cols-5">
                         <div className="col-span-4 pt-[10px] pb-[20px] flex flex-col w-full">
@@ -92,8 +94,8 @@ const NavBar = () => {
                     </div>
                   </div>
                   <div className="flex relative group items-end">
-                    <a className="p-[14px] text-sm cursor-pointer group-hover:bg-black hover:bg-black hover:border-transparent hover:border-2 hover:border-b-white">THỰC ĐƠN</a>
-                    <div className="container mx-auto w-max left-[-80] absolute top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-100">
+                    <Link href="/menu" className="p-[14px] text-sm cursor-pointer group-hover:bg-black border border-transparent border-b-white border-4 hover:border-b-yellow-300">THỰC ĐƠN</Link>
+                    <div className="container mx-auto w-max left-[-84] absolute top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
                       <div className="grid grid-cols-5">
                         <div className="col-span-4 pt-[10px] pb-[20px] flex flex-col w-full">
                           <div className="flex mb-8">
@@ -164,8 +166,8 @@ const NavBar = () => {
                     </div>
                   </div>
                   <div className="flex relative group items-end">
-                    <a className="p-[14px] text-sm cursor-pointer group-hover:bg-black group-hover: hover:bg-black hover:border-transparent hover:border-2 hover:border-b-white">QUÁN CÀ PHÊ</a>
-                    <div className="container mx-auto w-max absolute top-24 left-[-185] bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">     
+                    <a href="/coffe-store" className="p-[14px] text-sm cursor-pointer group-hover:bg-black border border-transparent border-b-white border-4 hover:border-b-yellow-300">QUÁN CÀ PHÊ</a>
+                    <div className="container mx-auto w-max absolute top-24 left-[-194] bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible">     
                       <div className="grid grid-cols-5">
                         <div className="col-span-4 pt-[10px] pb-[20px] flex flex-col w-full">
                           <div className="flex text-[13px] mb-8">
@@ -225,16 +227,187 @@ const NavBar = () => {
                     </div>
                   </div>
                   <div className="flex relative group items-end">
-                    <a className="p-[14px] text-sm cursor-pointer hover:bg-black hover:border-transparent hover:border-2 hover:border-b-white">TRÁCH NHIỆM</a>
-                    <div className="container mx-auto w-max absolute top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"></div>
+                    <a href="/responsibility" className="p-[14px] text-sm cursor-pointer group-hover:bg-black border border-transparent border-b-white border-4 hover:border-b-yellow-300">TRÁCH NHIỆM</a>
+                    <div className="container mx-auto w-max absolute left-[-322] top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                      <div className="grid grid-cols-5">
+                        <div className="col-span-4 pt-[10px] pb-[20px] flex flex-col w-full">
+                          <div className="flex text-[13px] mb-8">
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Chương trình Chuyên gia cà phê</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Cộng đồng Trực tuyến</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold hover:bg-green-300 inline-block duration-300">Thiết kế Cửa hàng</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Sản phẩm</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Dụng cụ uống</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Dụng cụ pha chế</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Phụ kiện</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div className="flex flex-col pr-3">
+                            <div className="px-1 pt-3 border border-transparent border-t-yellow-300 mb-3">Bạn đang tìm kiếm Điều gì Khác?</div>
+                            <div className="flex md:gap-4 gap-2 text-[13px] px-1">
+                              <a href="">
+                                <p className="font-bold hover:bg-green-300">Thức uống</p>
+                              </a>
+                              <p>giới thiệu về Chúng tôi</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex relative col-span-1">
+                          <img className="object-cover" src="./asset/background-1.jpg"></img>
+                          <div className="flex absolute px-[15px] w-5/6">
+                            <a href="/" className="my-5 p-[5px]">
+                              <div className="flex flex-col px-3 py-2 hover:bg-green-200 duration-300">
+                                <img className="mb-1" src="./asset/coffeehouse-teaser_tcm89-3864.jpg"></img>
+                                <div className="text-sm font-bold mb-1">Cà phê của chúng tôi đưa mọi người lại gần nhau</div>
+                                <div className="text-sm font-medium mb-1">Vui chơi, mơ giấc mơ lớn và vui chơi với bạn bè.</div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div className="flex relative group items-end">
-                    <a className="p-[14px] text-sm cursor-pointer hover:bg-black hover:border-transparent hover:border-2 hover:border-b-white" href="/about-us">VỀ CHÚNG TÔI</a>
-                    <div className="container mx-auto w-max absolute top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"></div>
+                    <a className="p-[14px] text-sm cursor-pointer group-hover:bg-black border border-transparent border-b-white border-4 hover:border-b-yellow-300" href="/about-us">VỀ CHÚNG TÔI</a>
+                    <div className="container mx-auto w-max absolute left-[-454] top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                      <div className="grid grid-cols-5">
+                        <div className="col-span-4 pt-[10px] pb-[20px] flex flex-col w-full">
+                          <div className="flex text-[13px] mb-8">
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Chương trình Chuyên gia cà phê</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Cộng đồng Trực tuyến</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold hover:bg-green-300 inline-block duration-300">Thiết kế Cửa hàng</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Sản phẩm</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Dụng cụ uống</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Dụng cụ pha chế</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Phụ kiện</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div className="flex flex-col pr-3">
+                            <div className="px-1 pt-3 border border-transparent border-t-yellow-300 mb-3">Bạn đang tìm kiếm Điều gì Khác?</div>
+                            <div className="flex md:gap-4 gap-2 text-[13px] px-1">
+                              <a href="">
+                                <p className="font-bold hover:bg-green-300">Thức uống</p>
+                              </a>
+                              <p>giới thiệu về Chúng tôi</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex relative col-span-1">
+                          <img className="object-cover" src="./asset/background-1.jpg"></img>
+                          <div className="flex absolute px-[15px] w-5/6">
+                            <a href="/" className="my-5 p-[5px]">
+                              <div className="flex flex-col px-3 py-2 hover:bg-green-200 duration-300">
+                                <img className="mb-1" src="./asset/coffeehouse-teaser_tcm89-3864.jpg"></img>
+                                <div className="text-sm font-bold mb-1">Cà phê của chúng tôi đưa mọi người lại gần nhau</div>
+                                <div className="text-sm font-medium mb-1">Vui chơi, mơ giấc mơ lớn và vui chơi với bạn bè.</div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div className="flex relative group items-end">
-                    <a className="p-[14px] text-sm cursor-pointer hover:bg-black hover:border-transparent hover:border-2 hover:border-b-white">THẺ</a>
-                    <div className="container mx-auto w-max absolute top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"></div>
+                    <a href="/card" className="p-[14px] text-sm cursor-pointer group-hover:bg-black border border-transparent border-b-white border-4 hover:border-b-yellow-300">THẺ</a>
+                    <div className="container mx-auto w-max absolute left-[-586] top-24 bg-white text-white p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                      <div className="grid grid-cols-5">
+                        <div className="col-span-4 pt-[10px] pb-[20px] flex flex-col w-full">
+                          <div className="flex text-[13px] mb-8">
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Chương trình Chuyên gia cà phê</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Cộng đồng Trực tuyến</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold hover:bg-green-300 inline-block duration-300">Thiết kế Cửa hàng</p>
+                              </a>
+                            </div>
+                            <div className="pl-[30px] flex flex-col flex-1">
+                              <a href="">
+                                <p className="font-bold inline-block hover:bg-green-300 duration-300">Sản phẩm</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Dụng cụ uống</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Dụng cụ pha chế</p>
+                              </a>
+                              <a href="">
+                                <p className="inline-block hover:bg-green-300 duration-300">Phụ kiện</p>
+                              </a>
+                            </div>
+                          </div>
+                          <div className="flex flex-col pr-3">
+                            <div className="px-1 pt-3 border border-transparent border-t-yellow-300 mb-3">Bạn đang tìm kiếm Điều gì Khác?</div>
+                            <div className="flex md:gap-4 gap-2 text-[13px] px-1">
+                              <a href="">
+                                <p className="font-bold hover:bg-green-300">Thức uống</p>
+                              </a>
+                              <p>giới thiệu về Chúng tôi</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex relative col-span-1">
+                          <img className="object-cover" src="./asset/background-1.jpg"></img>
+                          <div className="flex absolute px-[15px] w-5/6">
+                            <a href="/" className="my-5 p-[5px]">
+                              <div className="flex flex-col px-3 py-2 hover:bg-green-200 duration-300">
+                                <img className="mb-1" src="./asset/coffeehouse-teaser_tcm89-3864.jpg"></img>
+                                <div className="text-sm font-bold mb-1">Cà phê của chúng tôi đưa mọi người lại gần nhau</div>
+                                <div className="text-sm font-medium mb-1">Vui chơi, mơ giấc mơ lớn và vui chơi với bạn bè.</div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
             </div>

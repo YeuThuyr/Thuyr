@@ -1,4 +1,6 @@
 import React from "react";
+import Third from "./third";
+import Second from "./second";
 
 const AboutUs = () => {
     return (
@@ -16,82 +18,10 @@ const AboutUs = () => {
                     </svg>
                 </a>
             </div>
-            <div className="flex flex-col bg-[#382F2D]">
+            <div className="flex flex-col bg-[#f7f7f7]">
                 <div className="container mx-auto">
-                    <div className="grid grid-cols-6 mb-6">
-                        <div className="col-span-1 pt-16 flex flex-col gap-3">
-                            <p>
-                                <a href="/about-us" className="font-bold text-[#382F2D] hover:text-neutral-500 duration-300">VỀ CHÚNG TÔI</a>
-                            </p>
-                            <p>
-                                <a href="" className="text-[#382F2D] hover:text-neutral-500 duration-300">Di sản</a>
-                            </p>
-                            <p>
-                                <a href="" className="text-[#382F2D] hover:text-neutral-500 duration-300">Công ty</a>
-                            </p>
-                            <p>
-                                <a href="" className="text-[#382F2D] hover:text-neutral-500 duration-300">Cơ hội nghề nghiệp</a>
-                            </p>
-                        </div>
-                        <div className="col-span-1 pt-16 flex flex-col gap-3">
-                            <p>
-                                <a href="" className="font-bold text-[#382F2D] hover:text-neutral-500 duration-300">DỊCH VỤ KHÁCH HÀNG</a>
-                            </p>
-                            <p>
-                                <a href="" className="text-[#382F2D] hover:text-neutral-500 duration-300">Câu hỏi Thường Gặp</a>
-                            </p>
-                        </div>
-                        <div className="col-span-3 pt-16 flex flex-col gap-3">
-                            <p>
-                                <a href="" className="font-bold font-bold text-[#382F2D] hover:text-neutral-500 duration-300">LIÊN KẾT NHANH</a>
-                            </p>
-                            <p></p>
-                            <p></p>
-                            <a href="" className="text-[#382F2D] hover:text-neutral-500 duration-300">Bộ định vị Cửa hàng</a>
-                            <a href="" className="text-[#382F2D] hover:text-neutral-500 duration-300">Dành cho Đối tác</a>
-                        </div>
-                        <div className="flex col-span-1 justify-end items-start">
-                            <img src="./asset/starbuck.png" className=""></img>
-                        </div>
-                    </div>
-                    <div className="px-3 flex flex-col gap-4 pb-[45px]">
-                        <div className="flex gap-2 items-center">
-                            <img className="w-[15px] h-[11px]" src="./asset/VietNam_tcm89-24771_w1024_n.png"></img>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="size-3">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
-                            </svg>
-                            <p>|</p>
-                            <p className="md:pr-4 pr-1 text-sm">Tiếng Việt(VN)</p>
-                            <a href="/" className="text-sm text-[#382F2D] hover:text-neutral-500 duration-300">English</a>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" className="size-3">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
-                            </svg>
-                        </div>
-                        <div className="flex gap-2">
-                            <p className="text-[#382F2D] hover:text-neutral-500 duration-300">
-                                <a href="">Khả năng truy cập Web</a>
-                            </p>
-                            <p>|</p>
-                            <p className="text-[#382F2D] hover:text-neutral-500 duration-300">
-                                <a href="">Chính Sách Bảo Mật Thông Tin</a>
-                            </p>
-                            <p>|</p>
-                            <p className="text-[#382F2D] hover:text-neutral-500 duration-300">
-                                <a href="">Điều Khoản Sử dụng</a>
-                            </p>
-                            <p>|</p>
-                            <p className="text-[#382F2D] hover:text-neutral-500 duration-300">
-                                <a href="">Sờ đồ Trang Web</a>
-                            </p>
-                            <p>|</p>
-                            <p className="text-[#382F2D] hover:text-neutral-500 duration-300">
-                                <a href="">Tùy Chọn Cookie</a>
-                            </p>
-                        </div>
-                        <div>
-                            <p className="text-[10px] text-[#382F2D] mb-[25px]">© 2025 Starbucks Coffee Company. Mọi quyền được bảo lưu.</p>
-                        </div>
-                    </div>
+                    <Second></Second>
+                    <Third></Third>
                 </div>
             </div>
         </div>
